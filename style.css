@@ -336,4 +336,9 @@ input[type="text"]
    width:60%;
    height:40px;
 }
+
+li {
+    font-size: 22px;
+    color:#353d45;
+}
 /*Input-Type Ends*/
