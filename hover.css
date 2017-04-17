@@ -3933,6 +3933,7 @@
   }
 }
 .hvr-icon-wobble-horizontal {
+  
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);

@@ -200,8 +200,8 @@ p {
 margin-top:10px;
 }
 .logo{
-  height:14%;
-  width:24%;
+height:55px;
+  width:190px;
 }
 .LineSpace{
   padding-top: 10px;
@@ -266,6 +266,8 @@ margin-top: 10px;
 .MainSpace{
   padding-top: 50px;
 }
+
+
 
 /*Body Component Ends*/
 
@@ -344,3 +346,58 @@ li {
     color:#353d45;
 }
 /*Input-Type Ends*/
+
+
+
+
+/*Mobile View Analogy*/
+.DesktopButton{
+   margin-left:-14%;
+}
+
+
+
+
+
+
+
+
+
+/*Mobile View Analogy Ends*/
+
+
+
+
+/*Mobile Screens*/
+
+@media only screen and (max-width: 500px) {
+   
+   .MobileViewVertical{
+margin-top:-60px;
+   }
+
+   .MobileViewMain{
+
+   margin-top:-10px;
+   }
+
+   .MobileView{
+
+    margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+   }
+
+   .MobileViewGap{
+    margin-top:10px;
+   }
+
+.col-xs-off-1 {
+    margin-left: 8.333333333333332%;
+}
+
+
+
+
+
+}
