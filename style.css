@@ -26,10 +26,10 @@ body {
   
 background: #ffffff;
   
-/*background: #ECE9E6;  
+background: #ECE9E6;  
 background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
 background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
-*/
+
 
 
 /*background: #70e1f5;  
@@ -354,13 +354,23 @@ li {
 .DesktopButton{
    margin-left:-14%;
 }
+.DesktopButton1{
+  margin-left:-24%;
+}
+.DesktopButton2{
+  margin-left:-23%;
+}
+.DesktopNegSpace{
+margin-left:-5%;
+}
+.DesktopNegHeight{
+  margin-top: -12%;
+}
 
 
-
-
-
-
-
+.MobileViewPage{
+  visibility: hidden;
+}
 
 
 /*Mobile View Analogy Ends*/
@@ -372,8 +382,16 @@ li {
 
 @media only screen and (max-width: 500px) {
    
+   /*Desktop View Aalogy*/
+
+.DesktopView{
+  visibility: hidden;
+}
+
+ /*Desktop View Aalogy Ends*/
+
    .MobileViewVertical{
-margin-top:-60px;
+margin-top:80px;
    }
 
    .MobileViewMain{
@@ -391,13 +409,51 @@ margin-top:-60px;
    .MobileViewGap{
     margin-top:10px;
    }
+   .MobileViewLargeGap{
+    margin-top:50px;
+   }
+   .MobileViewNegDiv{
+    margin-top:-20px;
+   }
+   .MViewNegDiv{
+     margin-top:-50px;
+   }
+   .MViewNeg1Div{
+margin-top:-10px;
+   }
+
+.MobileViewPage{
+visibility: visible;
+}
 
 .col-xs-off-1 {
     margin-left: 8.333333333333332%;
 }
+.col-xs-off-1a{
+    margin-left: 10%;
+}
+.col-xs-off-less-1 {
+    margin-left: 2%;
+}
+.col-xs-off-less-1a {
+    margin-left: 5%;
+}
+.col-xs-off-xsless-1 {
+    margin-left: 0.5%;
+}
 
-
-
+.col-xs-off-5 {
+    margin-left: 41.66666666666667%;
+}
+.col-xs-off-4 {
+    margin-left: 33.33333333333333%;
+}
+.col-xs-off-3 {
+    margin-left: 25%;
+}
+.col-xs-off-2 {
+    margin-left: 16.666666666666664%;
+}
 
 
 }
